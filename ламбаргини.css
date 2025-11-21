@@ -1,0 +1,112 @@
+@keyframes nebo{
+    0% {background: linear-gradient(
+        #fcd364,
+        #cdcf5d)
+    }
+    100% {background: linear-gradient(
+        #f07400,
+        #ff2600)
+    }
+}
+
+.backgrouning {
+    animation: nebo 5s linear 1 alternate-reverse 0s forwards;
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(
+         #fcd364,
+         #cdcf5d)
+}
+
+main {
+    height: min-content;
+}
+
+.roar {
+    width: 100%;
+    height: 285px;
+}
+
+.rama {
+    /* animation: scalaling 4s ease-in 1 alternate 0s forwards; */
+    width: 200px;
+    background-color: blueviolet;
+    height: 350px;
+    position: absolute;
+    bottom: 10px;
+    left: 42%;
+    border-radius: 20%;
+}
+
+
+.koleso {
+    width: 45px;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+    bottom: -50px;
+    z-index: 2;
+    border-radius: 20px;
+}
+
+.left {
+    left: 20px;
+}
+
+.right {
+    right: 20px;
+}
+
+
+.okoshko {
+    width: 75px;
+    height: 40px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 20%;
+}
+
+.o {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    position: relative;
+    border-radius: 100%;
+    right: 7px;
+    bottom: 0;
+}
+
+.d {
+    top:5px;
+    left: 7px;
+}
+
+.dverr {
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    left: 25px;
+    top: 40px;
+    border-radius: 100%;
+}
+
+.dver {
+    width: 35px;
+    height: 70px;
+    background-color: blue;
+    position: relative;
+    bottom: -250px;
+    left: 90px;
+    border-radius: 10%;
+}
+
+@keyframes scalaling {
+    from {}
+    to{
+        scale: 3%;
+        opacity: 0;
+    }
+}
